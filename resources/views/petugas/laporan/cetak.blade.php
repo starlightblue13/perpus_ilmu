@@ -26,7 +26,7 @@
             <td>{{ $i+1 }}</td>
             <td>{{ $b->judul }}</td>
             <td>{{ $b->penulis }}</td>
-            <td>{{ $b->tahun_ }}</td>
+            <td>{{ $b->tahun_terbit }}</td>
         </tr>
         @endforeach
     </tbody>
